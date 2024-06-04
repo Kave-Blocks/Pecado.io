@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "image": "/ProprietaryImg1.svg",
+        "title": "US SEC EDGAR Referencing"
+    },
+    {
+        "id": 2,
+        "image": "/ProprietaryImg2.svg",
+        "title": "Compliance with Securities Act of 1933"
+    },
+    {
+        "id": 3,
+        "image": "/ProprietaryImg3.svg",
+        "title": "Proprietary Smart Contract Enhances"
+    }
+]

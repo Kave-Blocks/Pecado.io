@@ -14,7 +14,9 @@ export default {
     colors: {
       'primary-color': '#11112F',
       'white': '#FFFFFF',
-      'secondary-color': '#757575'
+      'secondary-color': '#757575',
+      'yellow-color': '#E59F19',
+      'skyblue': '#4141FF'
     },
     fontFamily: {
       'Montserrat': ["Montserrat", 'sans-serif']
@@ -23,7 +25,7 @@ export default {
       'primary-bg': '#11112F',
       'secondary-bg': '#DEDEE2',
       'white-bg': '#FFFFFF',
-      'yellow-bg': '#E59F19'
+      'yellow-bg': '#E59F19',
     },
     extend: {},
   },

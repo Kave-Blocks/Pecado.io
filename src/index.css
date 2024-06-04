@@ -8,3 +8,15 @@
 .btn {
   @apply rounded-full outline-none border-none px-8;
 }
+
+.inline-pecado-animation{
+  animation: animateLeft 40s linear infinite;
+}
+
+@keyframes animateLeft{
+  0%{
+    transform: translateX(0);
+  }100%{
+    transform: translateX(-100%);
+  }
+}

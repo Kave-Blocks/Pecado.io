@@ -6,7 +6,7 @@ import DivFadeLeft from '../../animations/DivFadeLeft'
 
 const Nav = () => {
   return (
-    <div className='fixed top-0 left-0 w-full py-5 z-50'>
+    <div className='fixed top-0 left-0 w-full py-5 z-50 px-20'>
       <div className="mx-auto max-w-screen-monitor flex w-full justify-between items-center">
         <Logo />
         <DivFadeLeft>

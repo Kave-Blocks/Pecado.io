@@ -5,7 +5,7 @@ import DivFadeIn from '../../animations/DivFadeIn'
 const Hero = () => {
 
   return (
-    <div className='min-h-screen mx-auto max-w-screen-monitor justify-center items-center flex flex-col gap-y-[32px]'>
+    <div className='relative min-h-screen justify-center items-center flex flex-col gap-y-[32px]'>
       <DivFadeIn>
         <div className="flex flex-col gap-y-6 w-full h-full">
             <h1 className='text-center leading-[70px] text-[64px] text-primary-color dark:text-white font-bold font-Montserrat'>
@@ -19,6 +19,7 @@ const Hero = () => {
             <HeroCTA />
         </div>
       </DivFadeIn>
+      <img src="/bgImg1.svg" alt="" className='absolute -bottom-[630px] object-cover w-full -z-10 dark:z-0'/>
     </div>
   )
 }
