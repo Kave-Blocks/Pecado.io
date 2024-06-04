@@ -16,7 +16,8 @@ export default {
       'white': '#FFFFFF',
       'secondary-color': '#757575',
       'yellow-color': '#E59F19',
-      'skyblue': '#4141FF'
+      'skyblue': '#4141FF',
+      'blue': '#1111A1'
     },
     fontFamily: {
       'Montserrat': ["Montserrat", 'sans-serif']

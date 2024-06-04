@@ -1,5 +1,6 @@
 import React from 'react'
 import DivFadeIn from '../../animations/DivFadeIn'
+import DivFadeRight from '../../animations/DivFadeRight'
 
 const Feature1 = () => {
   return (
@@ -11,15 +12,21 @@ const Feature1 = () => {
                 Designed to enhance smart contracts for Registered Digital Assets in adherence to US securities laws. 
                 </h2>
             </DivFadeIn>
-            <img src="/featured1.svg" alt="" />
+            <DivFadeRight>
+                <img src="/featured1.svg" alt="" />
+            </DivFadeRight>
+            <DivFadeIn>
             <div className="flex flex-row justify-between items-center">
-                <p className='text-[32px] w-[62%] font-Montserrat dark:text-white'>
-                Owned by P/E Capital Investments SEA Pte. Ltd., a subsidiary of <span className='text-primary-color font-bold dark:text-yellow-color'>Ashtree Block Ventures LLC</span>, ensures all digital assets are fully compliant and verifiable with the <span className='text-primary-color font-bold dark:text-yellow-color'>US SEC EDGAR system</span>.
-                </p>
+                
+                    <p className='text-[32px] w-[62%] font-Montserrat dark:text-white'>
+                    Owned by P/E Capital Investments SEA Pte. Ltd., a subsidiary of <span className='text-primary-color font-bold dark:text-yellow-color'>Ashtree Block Ventures LLC</span>, ensures all digital assets are fully compliant and verifiable with the <span className='text-primary-color font-bold dark:text-yellow-color'>US SEC EDGAR system</span>.
+                    </p>
+                
                 <button className='btn bg-primary-bg text-white dark:bg-yellow-bg dark:text-primary-color'>
                     Learn More About Us
                 </button>
             </div>
+            </DivFadeIn>
         </div>
     </div>
     </div>
