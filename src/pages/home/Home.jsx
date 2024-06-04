@@ -15,12 +15,13 @@ const Home = () => {
 
   return (
     <div className={`flex flex-col min-h-screen ${isDarkMode ? 'dark' : ''}`}>
-      <div className="flex flex-col w-full dark:bg-primary-bg">
+      <div className="relative flex flex-col w-full dark:bg-primary-bg">
         <Nav />
         <Hero />
         <Feature1 />
         <Featured2 />
         <ProprietaryCards />
+        <img src="/bgImg3.svg" alt="" className='absolute top-1/3 left-0 -z-10 w-full'/>
         <Featured3 />
         <GetStarted />
         <Footer />
