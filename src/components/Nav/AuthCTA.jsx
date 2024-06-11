@@ -1,13 +1,19 @@
-import React from 'react'
+import React from "react";
 
 const AuthCTA = ({ setIsScrolled }) => {
-    
   return (
-    <div className='flex flex-row gap-x-2'>
-      <button className='btn btn-md'>Log in</button>
-      <button className={`btn btn-md bg-[#11112F] ${setIsScrolled ? 'bg-primary-bg text-white' : 'dark:bg-yellow-bg text-white'}`}>Create account</button>
+    <div className="flex flex-row gap-x-2">
+      <a href="https://aix-app.pecado.io/" target="_blank"
+        className={`btn btn-md bg-[#11112F] ${
+          setIsScrolled
+            ? "bg-primary-bg text-white"
+            : "dark:bg-yellow-bg text-white"
+        }`}
+      >
+        Visit AIX
+      </a>
     </div>
-  )
-}
+  );
+};
 
-export default AuthCTA
+export default AuthCTA;
