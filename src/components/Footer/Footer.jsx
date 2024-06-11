@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="flex-[1] flex flex-col gap-y-5">
             <img src="/logo.svg" alt="" className='w-32'/>
             <div className="flex flex-col gap-y-2">
-                <p className='text-[32px]'>+63 656 245 2356</p>
-                <p className='text-blue text-[32px]'>helloworld@pec.io</p>
+                <p className='text-[32px]'>+18885519375</p>
+                <p className='text-blue text-[32px]'>ai.x@ashtreebv.com</p>
                 <Socials />
             </div>
         </div>
