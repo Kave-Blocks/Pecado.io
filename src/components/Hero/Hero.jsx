@@ -16,9 +16,10 @@ const Hero = () => {
             Proprietary ledger technology for smart<br/>
             contracts under the US Securities framework
             </p>
-            <HeroCTA />
+            
         </div>
       </DivFadeIn>
+      <HeroCTA />
       <img src="/bgImg1.svg" alt="" className='absolute -bottom-[630px] object-cover w-full -z-10 dark:z-0'/>
     </div>
   )
