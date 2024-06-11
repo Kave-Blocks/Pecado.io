@@ -18,8 +18,8 @@ const Hero = () => {
             </p>
             
         </div>
+        <HeroCTA />
       </DivFadeIn>
-      <HeroCTA />
       <img src="/bgImg1.svg" alt="" className='absolute -bottom-[630px] object-cover w-full -z-10 dark:z-0'/>
     </div>
   )
