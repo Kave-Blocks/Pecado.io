@@ -14,7 +14,7 @@ const ProprietaryCards = () => {
             </DivFadeIn>
 
             <DivFadeIn>
-                <div className="grid tablet:grid-cols-2 gap-5">
+                <div className="grid tablet:grid-cols-2 laptop:grid-cols-3 gap-5">
                     {ProprietaryData.map((data, i) => (
                         <ProprietaryCard key={i} data={data}/>
                     ))}
