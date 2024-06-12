@@ -4,7 +4,7 @@ import DivFadeRight from '../../animations/DivFadeRight'
 
 const Feature1 = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen mt-10 tablet:mt-[200px] px-4 tablet:px-8 laptop:px-0">
+    <div className="flex justify-center items-center tablet:min-h-screen mt-10 tablet:mt-[200px] px-4 tablet:px-8 laptop:px-0 pb-10 tablet:pb-0">
         <div className='mx-auto max-w-7xl flex justify-center items-center pt-2'>
         <div className="w-full flex flex-col gap-y-10">
             <DivFadeIn>
