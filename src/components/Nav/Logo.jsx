@@ -9,11 +9,11 @@ const Logo = ({ isScrolled }) => {
     <DivFadeRight>
       {isDarkMode ? (
         <>
-       {isScrolled ? <span className='text-white font-Montserrat text-4xl font-semibold'>P<span className='text-primary-color'>E</span>CADO</span> : <span className='text-white font-Montserrat text-4xl font-semibold'>P<span className='text-yellow-color'>E</span>CADO</span>}
+       {isScrolled ? <span className='text-white font-Montserrat text-2xl tablet:text-4xl font-semibold'>P<span className='text-primary-color'>E</span>CADO</span> : <span className='text-white font-Montserrat text-2xl tablet:text-4xl font-semibold'>P<span className='text-yellow-color'>E</span>CADO</span>}
         </>
       ) : (
         <>
-        {isScrolled ? <span className='text-white font-Montserrat text-4xl font-semibold'>P<span className='text-yellow-color'>E</span>CADO</span> : <span className='text-primary-color font-Montserrat text-4xl font-semibold'>P<span className='text-yellow-color'>E</span>CADO</span>}
+        {isScrolled ? <span className='text-white font-Montserrat text-2xl tablet:text-4xl font-semibold'>P<span className='text-yellow-color'>E</span>CADO</span> : <span className='text-primary-color font-Montserrat text-2xl tablet:text-4xl font-semibold'>P<span className='text-yellow-color'>E</span>CADO</span>}
         </>
       )}
       
@@ -22,3 +22,4 @@ const Logo = ({ isScrolled }) => {
 }
 
 export default Logo
+ 

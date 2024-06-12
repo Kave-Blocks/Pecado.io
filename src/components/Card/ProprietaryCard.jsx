@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProprietaryCard = ({ data }) => {
   return (
-    <div className='card card-compact bg-white-bg border-none outline-none shadow-md w-96'>
+    <div className='card card-compact bg-white-bg border-none outline-none shadow-md tablet:w-96'>
         <figure>
             <img src={data.image} alt="" className='w-full'/>
         </figure>
