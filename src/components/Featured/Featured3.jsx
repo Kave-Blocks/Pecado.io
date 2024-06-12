@@ -5,7 +5,7 @@ import DivFadeLeft from '../../animations/DivFadeLeft'
 const Featured3 = () => {
   return (
     <div className='min-h-screen flex flex-col justify-center items-center pt-20 tablet:pt-0'>
-        <div className="mx-auto max-w-7xl w-full flex flex-col px-4 tablet:px-0">
+        <div className="mx-auto max-w-7xl w-full flex flex-col px-4 tablet:px-8 laptop:px-0">
             <DivFadeRight>
             <div className="flex flex-col tablet:flex-row justify-between items-start tablet:items-center py-10 border-t-[1px] border-[#818181]">
                 <h3 className='flex-[1] text-blue text-[30px] md:text-[48px] font-Montserrat font-bold dark:text-yellow-color'>Regulatory<br/> Compliance</h3>

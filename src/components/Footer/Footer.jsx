@@ -3,7 +3,7 @@ import Socials from "./Socials";
 
 const Footer = () => {
   return (
-    <div className="relative flex-col bg-white-bg min-h-[50vh] flex justify-center items-center p-5 tablet:p-0">
+    <div className="relative flex-col bg-white-bg min-h-[50vh] flex justify-center items-center p-5 tablet:p-8 laptop:px-0">
       <div className="mx-auto flex flex-col tablet:flex-row max-w-screen-desktop w-full">
         <div className="flex-[1] flex flex-col gap-y-2 tablet:gap-y-5">
           <img src="/logo.svg" alt="" className="w-32" />
